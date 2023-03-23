@@ -1,0 +1,7 @@
+//EJERCICIO 1
+#include <stdio.h>
+int main() {
+ char a[] = "Carlos Andres Escobar";// se colca a[] debido a que es un arreglo de characteres
+ int b = 21158;
+ printf("Nombre: %s , Carné: %d\n", a, b); //se coloca S para mostrar un string, y un d para mostrar un número
+}
