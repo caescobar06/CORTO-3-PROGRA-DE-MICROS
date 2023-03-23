@@ -1,0 +1,22 @@
+#include <stdio.h>
+#define pi 3.1416
+int main() {
+int vector[5];
+int i,a;
+
+for (i=0; i<5;i++)
+{
+    printf("Ingrese números enteros: ");
+    scanf("%d", &a);
+    vector[i] = a;
+}
+
+for (i=0; i<5;i++)
+{
+    printf("El resultado es: %d \n", vector[i]*2);
+    
+}
+
+
+ return 0;
+}
