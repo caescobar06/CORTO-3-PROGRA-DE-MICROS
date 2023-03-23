@@ -1,0 +1,22 @@
+#include <stdio.h>
+#define pi 3.1416
+int main() {
+ int a,b;
+ int resul;
+ float resul2, pi_r;
+ 
+ 
+ printf("Ingrese dos números separados por un espacio :");
+ scanf("%d %d", &a, &b);
+ resul = suma(a,b);
+ printf("El resultado de la suma es %d \n", resul);
+ resul = resta(a,b);
+ printf("El resultado de la resta es %d \n", resul);
+ resul2 = multi(a,b);
+ printf("El resultado de la multiplicación es %f \n", resul2);
+ resul2 = divi(a,b);
+ printf("El resultado de la división es %f \n", resul2);
+ printf("El resultado de pi es %f \n",pi);
+
+ return 0;
+}
